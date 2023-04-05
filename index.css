@@ -3,31 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 :root {
-    --white: #FFFFFFff;
-    --palatinate-blue: #533AF3ff;
-    --palatinate-blue-2: #4442C6ff;
-    --white-2: #FCFCFCff;
-    --chrysler-blue: #4825C8ff;
-    --delft-blue: #313B57ff;
-    --white-3: #FFFFFFff;
-    --white-4: #FBFDFEff;
-    --palatinate-blue-3: #442FE3ff;
-    --white-5: #FFFFFFff;
-    --light-coral: #E68F8Dff;
-    --palatinate-blue: #533AF3ff;
-    --lavender-web: #E2E6FAff;
-    --chrysler-blue: #4825C8ff;
-    --medium-slate-blue: #786ED3ff;
-    --chrysler-blue-2: #4628D4ff;
-    --savoy-blue: #515BA9ff;
-    --palatinate-blue-2: #4442C6ff;
-    --indian-red: #D05F63ff;
-    --delft-blue: #313B57ff;
-    --cambridge-blue: #7ABCABff;
-    --floral-white: #FFFBF2ff;
     --snow: #FFF6F5ff;
-    --mint-cream: #F2FBFAff;
-    --palatinate-blue: #4935F2ff;
 
     /******** SHADOW ********/
     --shadow: 0 2rem 2rem 0 rgba(0, 0, 0, .1);
