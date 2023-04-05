@@ -4,4 +4,6 @@
 
 ## Preview
 
+![preview](https://github.com/projectfinalaudio/htmlcsscard_frontend_mentor/blob/master/preview/desktop_preview.PNG?raw=true)
+
 
