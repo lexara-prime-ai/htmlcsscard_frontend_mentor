@@ -1,0 +1,203 @@
+/********** GOOGLE FONTS ***********/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+    --white: #FFFFFFff;
+    --palatinate-blue: #533AF3ff;
+    --palatinate-blue-2: #4442C6ff;
+    --white-2: #FCFCFCff;
+    --chrysler-blue: #4825C8ff;
+    --delft-blue: #313B57ff;
+    --white-3: #FFFFFFff;
+    --white-4: #FBFDFEff;
+    --palatinate-blue-3: #442FE3ff;
+    --white-5: #FFFFFFff;
+    --light-coral: #E68F8Dff;
+    --palatinate-blue: #533AF3ff;
+    --lavender-web: #E2E6FAff;
+    --chrysler-blue: #4825C8ff;
+    --medium-slate-blue: #786ED3ff;
+    --chrysler-blue-2: #4628D4ff;
+    --savoy-blue: #515BA9ff;
+    --palatinate-blue-2: #4442C6ff;
+    --indian-red: #D05F63ff;
+    --delft-blue: #313B57ff;
+    --cambridge-blue: #7ABCABff;
+    --floral-white: #FFFBF2ff;
+    --snow: #FFF6F5ff;
+    --mint-cream: #F2FBFAff;
+    --palatinate-blue: #4935F2ff;
+
+    /******** SHADOW ********/
+    --shadow: 0 2rem 2rem 0 rgba(0, 0, 0, .1);
+}
+
+/********** OVERRIDE DEFAULT STYLING **********/
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+/******* STYLING FOR MAIN CONTAINER *******/
+.card-container {
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 9%;
+    box-shadow: var(--shadow);
+    border-radius: 24px;
+    background: #ffffff;
+}
+
+/********** STYLING FOR SCORE SECTION ***********/
+.score {
+    text-align: center;
+    background: linear-gradient(to top, #322de9, #4825C8ff);
+    background-repeat: no-repeat;
+    color: var(--snow);
+    padding: 2rem;
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+    width: 240px;
+}
+
+.title {
+    color: #c7c7c7;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.score-number {
+    background: linear-gradient(to bottom, #3803b4, #452ce71e);
+    clip-path: circle(36.1% at 50% 50%);
+    padding: 4rem;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.percentage {
+    font-size: .9rem;
+    font-weight: 600;
+    color: #ffffff;
+    opacity: .5;
+}
+
+.user-rating {
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 2rem;
+    margin-bottom: .3rem;
+}
+
+.rating-info {
+    font-size: .9rem;
+    max-width: 300px;
+    margin: auto;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    color: #c7c7c7;
+}
+
+/*********** STYLING FOR SUMMARY SECTION ***********/
+.summary {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.summary-section-title {
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #63646e;
+    letter-spacing: .3px;
+}
+
+.summary-container {
+    width: 100%;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    font-size: .6rem;
+    border-radius: 9px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.summary-title {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .5px;
+}
+
+.summary-score {
+    float: right;
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+}
+
+.summary-score span {
+    font-weight: 700;
+    color: #303b57;
+}
+
+/******** SUMMARY CATEGORIES *********/
+.reaction {
+    background: #fff7f5;
+    color: #ff5555;
+}
+
+.memory {
+    background: #fefaf1;
+    color: #ffb21e;
+}
+
+.verbal {
+    background: #f2fbfa;
+    color: #3ccaa9;
+}
+
+.visual {
+    background: #f3f3fd;
+    color: #3b4cdd;
+}
+
+/********** STYLING FOR ICONS ***********/
+.icon {
+    padding-right: 9px;
+}
+
+/* BUTTON STYLING */
+.btn {
+    background: #303b57;
+    border: none;
+    padding: 1rem;
+    width: 260px;
+    border-radius: 24px;
+    color: #f3f3f3;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: .3rem;
+    cursor: pointer;
+    transition: .4s all ease;
+}
+
+.btn:hover {
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, .2);
+}
+
