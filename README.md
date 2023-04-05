@@ -1,6 +1,6 @@
-# Html, Css Card Challenge(**Frontend Mentor**)
+# Html, Css Card Challenge(Frontend Mentor)
 
-### Live Preview :
+**Live** Preview : https://htmlcsscardchallenge.onrender.com/
 
 ## Preview
 
